@@ -157,3 +157,133 @@ i {
   padding: 80px 150px;
   color: #fff;
 }
+
+/* payment instruments */
+
+.payment-instruments {
+  background-color: #f5f7fa;
+  padding: 130px 180px;
+}
+
+.payment-instruments h2 {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+/* card1 and card2 litte bit of card3*/
+.payment-instruments > div {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 80px 0 100px 100px;
+  height: 60vh;
+  margin-bottom: 50px;
+}
+.card-left {
+  width: 45%;
+
+  height: 100%;
+  float: left;
+}
+
+.card-wrap {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-wrap img {
+  width: 80px;
+  margin: 30px 0 35px 0;
+}
+.card-wrap h3 {
+  font-size: 1rem;
+  margin: 50px 0 0 10px;
+}
+
+.card-text-bold {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.card-text-light-bold {
+  font-weight: 500;
+  line-height: 25px;
+}
+.card-right {
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+.card-right img {
+  width: 530px;
+}
+
+/* card3 */
+
+.paytm-postpaid-logo {
+  width: 200px;
+  padding-bottom: 50px;
+}
+.card3 .card-left {
+  width: 40%;
+}
+.card3 .card-right {
+  width: 47%;
+}
+
+.learn-more {
+  background-color: #002970;
+  color: #fff;
+  width: 180px;
+  height: 37px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 13px;
+  margin-top: 30px;
+}
+#shopping {
+  width: 450px;
+}
+
+/* card4 and card5 */
+#card4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f7fa;
+  padding: 0;
+  height: 90vh;
+}
+
+.hdfc {
+  width: 37%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 60px 0 60px;
+}
+.hdfc-logo {
+  width: 200px;
+  margin-bottom: 25px;
+}
+.cardhdfc {
+  width: 450px;
+  margin-top: 44px;
+}
+.sbi {
+  width: 45%;
+  background-color: #fff;
+  width: 37%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 100px 60px 0 60px;
+}
+.sbi-logo {
+  width: 200px;
+  margin-bottom: 25px;
+}
+.cardsbi {
+  width: 450px;
+  margin-top: 44px;
+}
